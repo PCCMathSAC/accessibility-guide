@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!-- ********************************************************************* -->
+<!-- Copyright 2018                                                        -->
+<!-- American Institute of Mathematics                                     -->
+<!--                                                                       -->
+<!-- GNU General Public License, see <http://www.gnu.org/licenses/>.       -->
+<!-- ********************************************************************* -->
+
+<mathbook>
+    <docinfo>
+        <!-- <brandlogo url="http://webwork.maa.org/" source="images/webwork-logo.png" /> -->
+
+        <cross-references text="type-global" />
+
+        <initialism>MAG</initialism>
+
+    </docinfo>
+
+    <article xml:id="accessibility-guide">
+        <title>Math Accessibility Guide</title>
+
+        <frontmatter xml:id="index">
+            <titlepage>
+                <author>
+                    <personname>American Institute of Mathematics</personname>
+                </author>
+                <date><today /></date>
+            </titlepage>
+
+            <abstract>
+                <p>Mathematics presents many accessibility challenges that other disciplines may not have to deal with. 
+                    AIM supports making math education accessible to all. 
+                    This report summarizes information pertaining to math web accessibility, including recommendations for best practices and references to helpful resources. 
+                    The intended audience is math teachers, math students, writers of math content, and policy makers.</p>
+            </abstract>
+
+        </frontmatter>
+
+        <section>
+            <title>Generalities</title>
+            <paragraphs>
+                <title>Definition of Accessibility</title>
+                <p>
+                    <url href="https://www2.ed.gov/about/offices/list/ocr/docs/investigations/11116002-b.pdf">www2.ed.gov/about/offices/list/ocr/docs/investigations/11116002-b.pdf</url>
+                </p>
+            </paragraphs>
+        </section>
+
+        <section>
+            <title>Resources for Students</title>
+            <paragraphs>
+                <title>BlindMath</title>
+                <p>
+                    <email>blindmath@nfbnet.org</email> is a place where interested persons can discuss all issues related to blindness and math. 
+                    Topics for discussion include (but are not limited to) sources for accessible texts, information about tactile and auditory graphing programs, suggestions for insuring that math lectures are accessible to blind students, and strategies used by blind math instructors. 
+                    Anyone with an interest in this topic is free to join this group and contribute to the discussions.
+                </p>
+                <p>
+                    This list is moderated by Steve Jacobson. You can reach him at: <email>steve.jacobson@visi.com</email>.
+                </p>
+            </paragraphs>
+
+            <paragraphs>
+                <title>Blindmath Gems</title>
+                <p>
+                    <url href="http://www.blindscience.org/blindmath-gems-home">www.blindscience.org/blindmath-gems-home</url>
+                </p>
+            </paragraphs>
+        </section>
+
+        <section>
+            <title>Resources for Teachers</title>
+
+            <subsection>
+                <title>MathJax</title>
+                <introduction>
+                    <p>
+                        MathJax is a tool for putting math content into a web page. 
+                        The web page source has math written using one of a few standard <q>code</q> formats. 
+                        MathJax will scan the page looking for that math code, and intervene to render that code differently. 
+                        A sighted user should see nicely printed math. 
+                        All users will have the ability to enlarge the math, highlight it in portions, and have screen readers speak the math in various ways.
+                    </p>
+                </introduction>
+                <subsubsection>
+                    <title></title>
+                    <p></p>
+                </subsubsection>
+            </subsection>
+        </section>
+
+        <section>
+            <title>Resources for Math Content Producers</title>
+            <p></p>
+        </section>
+
+        <section>
+            <title>Resources for Administrators</title>
+            <p></p>
+        </section>
+
+    </article>
+</mathbook>

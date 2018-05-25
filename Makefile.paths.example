@@ -1,0 +1,53 @@
+## ********************************************************************* ##
+## Copyright 2018                                                        ##
+## American Institute of Mathematics                                     ##
+##                                                                       ##
+## GNU General Public License, see <http://www.gnu.org/licenses/>.       ##
+##                                                                       ##
+## ********************************************************************* ##
+
+#########################################
+# DO NOT EDIT Makefile.paths.distribution
+#########################################
+
+#   1) Do make a copy of Makefile.paths.distribution
+#      as Makefile.paths
+#   2) Edit Makefile.paths as directed there
+#   3) Makefile and this file (Makefile.paths.distribution)
+#      are managed by revision control and edits will conflict
+#   4) See Makefile.paths.example (also tracked) for guidance
+
+###########
+# Variables
+###########
+
+# Provide full paths for principal variables,
+# each without a trailing slash
+
+# PreTeXt distribution root
+PTX = /Users/alex.jordan/mathbook
+
+# Project's root
+PROJECT = /Users/alex.jordan/accessibility-guide
+
+# Products are built in subdirectories
+# of a "scratch" directory
+SCRATCH = /Users/alex.jordan/accessibility-guide/output
+
+# Jing-Trang for RELAX-NG schema validation
+# (only if you want to validate PTX source)
+JINGTRANG = /Users/alex.jordan/jing-trang/build
+
+# These are executables to helper applications
+# Provide as much of a path as is needed
+
+# LaTeX engine, executable
+# xelatex is preferable, but pdflatex is another option
+ENGINE = xelatex
+
+# Text file viewer (eg, DTD errors)
+# "more" or "less" are likely system utilities
+PAGER = more
+
+# HTML viewer  (eg "open -a firefox", "open -a safari", on Mac)
+HTMLVIEWER = firefox
