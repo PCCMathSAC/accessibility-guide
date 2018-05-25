@@ -29,10 +29,12 @@
             </titlepage>
 
             <abstract>
-                <p>Mathematics presents many accessibility challenges that other disciplines may not have to deal with. 
+                <p>
+                    Mathematics presents many accessibility challenges that other disciplines may not have to deal with. 
                     AIM supports making math education accessible to all. 
                     This report summarizes information pertaining to math web accessibility, including recommendations for best practices and references to helpful resources. 
-                    The intended audience is math teachers, math students, writers of math content, and policy makers.</p>
+                    The intended audience is math teachers, math students, writers of math content, and policy makers.
+                </p>
             </abstract>
 
         </frontmatter>
@@ -45,10 +47,97 @@
                     <url href="https://www2.ed.gov/about/offices/list/ocr/docs/investigations/11116002-b.pdf">www2.ed.gov/about/offices/list/ocr/docs/investigations/11116002-b.pdf</url>
                 </p>
             </paragraphs>
+
+            <paragraphs>
+                <title>Background and Philosophy</title>
+
+                <p>
+                    This website considers the question of how to best make mathematics accessible to people with disabilities. 
+                    While there are many unanswered questions relating to how to make mathematics accessible, many meaningful and hopefully helpful things can still be said. 
+                    There are clear dos and don'ts. 
+                    There are several ways to address whether a content is accessible. 
+                    A tools like the accessibility checker in Adobe Professional can be used to access accessibility of PDF files. 
+                    The website checker WAVE (found on <url href="https://wave.webaim.org">wave.webaim.org</url>) can be used to point out issues with accessibility issues on webpages. 
+                    If content passes these checkers this does not guarantee that the content is accessible for all people with any type of disability. 
+                    But these types of tools are very helpful in eliminating many common problems. 
+                    A declaration about the accessibility of content is always relative to the audience. 
+                    Again, this does not mean that there aren't common and clear guidelines. 
+                    In some ways the following is an expansion of a study conducted at Portland Community College [ref]. 
+                </p>
+                <p>
+                    The questions of how to make mathematics accessible to people with disabilities is in particular encountered in education. 
+                    Here a student might be want to take a math course and the instructor (and the university) then has to find the best way to make the material/content in the course accessible to the student. 
+                    This can initially seem like a hopeless situation for both the student and the instructor. 
+                    It is emphasized that the first step in a solution to this particular problem is a meeting of the instructor and student with university staff (from a disability services if such exist) to determine the best course of action. 
+                    As this website will outline there are several approaches to solving the problem, but it is, again, relative to:
+                    <ul>
+                        <li>the specific disability,</li>
+                        <li>the tools the student is comfortable with,</li>
+                        <li>the resources of educational institution,</li>
+                    </ul>
+                    and other things.
+                </p>
+            </paragraphs>
+            <paragraphs>
+                <title>Moral obligation</title>
+                <p>
+                    As an instructor at an education institution your greatest commitment is to your students. 
+                    This naturally includes any student with a disability. 
+                    Making content accessible to students with disabilities is not an overwhelming task and many simple tools already exist that can help you do this. 
+                </p>
+            </paragraphs>
+            <paragraphs>
+                <title>Legalities</title>
+                <p>
+                    There are a number of laws that speak to accessibility. 
+                    In the USA two important pieces pieces of legislation are 
+                    <ul>
+                        <li>Title II of the Americans with Disability Act of 1990</li>
+                        <li>Section 504 of the Rehabilitation Act of 1973 </li>
+                    </ul>
+                    These pieces of legislation speaks to the rights of anyone with a disability. 
+                    For out purpose here, they say that content should be made accessible to all students. 
+                    The question of what is accessible is debatable. 
+                    One answer is found in an agreement between South Carolina Technical College System and the Office of Civil Rights under the Department of Education:
+                </p>
+                <blockquote>
+                    <p>
+                        <q>Accessible</q> means a person with a disability is afforded the opportunity to acquire the same information, engage in the same interactions, and enjoy the same services as a person without a disability in an equally effective and equally integrated manner, with substantially equivalent ease of use. 
+                        The person with a disability must be able to obtain the information as fully, equally and independently as a person without a disability. 
+                        Although this might not result in identical ease of use compared to that of persons without disabilities, it still must ensure equal opportunity to the educational benefits and opportunities afforded by the technology and equal treatment in the use of such technology.
+                    </p>
+                </blockquote>
+                <p>
+                    Not all content can be made completely accessible to the point where they are fully accessible in an equivalent manner to the original content. 
+                    The legal requirement is comparability to the greatest extent possible. 
+                    On this website we present avenues to achieve this when it comes to creating accessible mathematics.
+                </p>
+            </paragraphs>
+            <paragraphs>
+                <title>This site</title>
+                <p>
+                    This site will provide guidelines for how to best make mathematics accessible. 
+                    We will focus on how accessible mathematics can be put in electronic document. 
+                    This will include an overview of tools currently available to the content creator and reader. 
+                    Note, however, that no perfect one-size-fits-all approach exists.
+                </p>
+            </paragraphs>
         </section>
 
         <section>
             <title>Resources for Students</title>
+
+            <p>
+                [Suggestion: Here we have an overview of 
+                <ul>
+                    <li>how a screen reader works</li>
+                    <li>what is Nemeth braille? Refreshable braille devices</li>
+                </ul>
+                The idea could be to present, for example, a student with the two ways that mathematics is read. 
+                Here the point could possibly also be made that one might have to change the settings in the screen reader. 
+                This could also discuss different operating systems?]
+            </p>
+
             <paragraphs>
                 <title>BlindMath</title>
                 <p>
@@ -71,6 +160,70 @@
 
         <section>
             <title>Resources for Teachers</title>
+            <subsection>
+                <title>General Method</title>
+
+                <p>
+                    Three ways that accessible mathematics can be created is
+                    <ul>
+                        <li>Creating a webpage with MathML or MathJax.</li>
+                        <li>Using <latex />. Here one can convert the <latex /> soure to an HTML document containing MathML or MathJax.</li>
+                        <li>Microsoft Word using Math Type to insert mathematical expressions. The reader uses MathPlayer.</li>
+                    </ul>
+                </p>
+                <p>
+                    [I guess that one here might have a more detailed description of the workflow for each of these approaches. 
+                    Or maybe this is contained in a more detailed description of each of the tools?]
+                </p>
+                <paragraphs>
+                    <title>Keep the source code</title>
+                    <p>
+                        Since a document isn't always immediately accessible a conversion process is often needed. 
+                        Because of this it is essential that you have access to the original course file for the content/document that you created. 
+                        It is important that you are willing to share this with whomever is doing the conversion.
+                    </p>
+                </paragraphs>
+            </subsection>
+            <subsection>
+                <title>Specific tools</title>
+                <p>
+                    [Here could be a discussion of specific tools
+                    <ul>
+                        <li>Microsoft Word</li>
+                        <li>PowerPoint</li>
+                        <li>LibreOffice / OpenOffice</li>
+                        <li><latex /></li>
+                        <li>Ximera (an improvement over tex4ht)</li>
+                        <li>LaTeXML</li>
+                    </ul>
+                    While there is a more general discussion above, maybe it makes sense to still address specific tools?]
+                </p>
+            </subsection>
+            <subsection>
+                <title>Other formats than written</title>
+                <p>
+                    [Maybe here a subsection on producing other content like videos and graphs.]
+                </p>
+                <paragraphs>
+                    <title>Videos</title>
+                    <p>
+                        [Maybe here a discussion of best practices for producing videos with math. 
+                        For example, videos for online classes.
+                        <ul>
+                            <li>Subtitling is important</li>
+                            <li>Providing a transcript is helpful (could transcript be HTML + MathJax?)</li>
+                            <li>Proving optional voice over</li>
+                            <li>Guidance on how best to speak in a video</li>
+                        </ul>
+                    </p>
+                </paragraphs>
+                <paragraphs>
+                    <title>Graphs</title>
+                    <p></p>
+                </paragraphs>
+            </subsection>
+
+
 
             <subsection>
                 <title>MathJax</title>
@@ -97,8 +250,43 @@
 
         <section>
             <title>Resources for Administrators</title>
-            <p></p>
+            <p>
+                [Maybe here the following points can be made
+                <ul>
+                    <li>
+                        <p>
+                            Being proactive is good. 
+                            Having a options and processes outlined ahead of time will help speed up conversion processes. 
+                            For example, having a sitdown meeting with student, instructor, and disability services to discuss what will work best for the student is a good start. 
+                            Maybe having each department outline a response procedure with specific considerations related to the department is good.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            There is no solution that fits all and buying a lot of new equipment or brailling textbooks in advance might not be the most efficient approach.
+                        </p>
+                    </li>
+                </ul>
+            </p>
         </section>
-
+        <section>
+            <title>Dealing with publishers and online homework systems</title>
+            <p>
+                [copy from PCC] A VPAT is a companyâs own assessment of how their product conforms to U.S.<nbsp />Federal Accessibility Standards (defined by Section 508 [17, 18]). 
+                If a school or department is looking into using any online resources, be sure to ask for the VPAT for the online resource. 
+                A VPAT gives a school or department a starting point from which to assess the accessibility of those resources. 
+                We also encourage the school or department to experiment with the product, as the VPAT tends to be an overall assessment of the product and might not list all the particular pieces of the product that the school or department will be using. [end copy]
+            </p>
+            <p>
+                This includes evaluating Learning Management Systems and online homework systems. 
+                Be aware that a VPAT is a company's own assessment of their accessibility and as such might not always give a perfect picture of the level of accessibility.
+            </p>
+        </section>
+        <section>
+            <title>Don't do this</title>
+            <p>
+                [Here maybe a section on what not to do. Or maybe this will be included in the above sections.]
+            </p>
+        </section>
     </article>
 </mathbook>
